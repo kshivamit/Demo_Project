@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CandidateDL.Candidate>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<table class="table" style="border:groove">
+    <thead>
+        <tr>
+            <th>
+                Candidate Name
+            </th>
+            <th>
+                Father Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var data in Model)
+        {
+            <tr>
+                <td>
+                    @data.CandidateName
+                </td>
+                <td>
+                    @data.FatherName
+                </td>
+                <td>
+                    @data.EmailId
+                </td>
+                <td>
+                    <button onclick="DeleteRecord(@data.Id)" class="btn btn-danger">DELETE</button> 
+                    <a asp-controller="Candidate" asp-action="Index" asp-route-id="@data.Id" class="btn btn-primary">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    function DeleteRecord(Id)
+    {
+        if (confirm("Are you sure to delete the record..."))
+        {
+            $.get("/Candidate/DeleteCandidate", {Id:Id}, function (response) {
+                if (response) {
+                    alert("Record deleted successfully!");
+                    location.reload();
+                }
+                else {
+                    alert("Unable to delete the record!, Please contact with Admin");
+                }
+            });
+        }
+    }
+</script>

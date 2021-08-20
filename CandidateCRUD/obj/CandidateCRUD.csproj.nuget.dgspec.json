@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateCRUD\\CandidateCRUD.csproj": {}
+  },
+  "projects": {
+    "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\BL.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\BL.Implementation.csproj",
+        "projectName": "BL.Implementation",
+        "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\BL.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Shivam Kasaudhan\\.nuget\\packages\\",
+        "outputPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shivam Kasaudhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj": {
+                "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj",
+        "projectName": "BL.Repository",
+        "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj",
+        "packagesPath": "C:\\Users\\Shivam Kasaudhan\\.nuget\\packages\\",
+        "outputPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shivam Kasaudhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj": {
+                "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateCRUD\\CandidateCRUD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateCRUD\\CandidateCRUD.csproj",
+        "projectName": "CandidateCRUD",
+        "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateCRUD\\CandidateCRUD.csproj",
+        "packagesPath": "C:\\Users\\Shivam Kasaudhan\\.nuget\\packages\\",
+        "outputPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateCRUD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shivam Kasaudhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\BL.Implementation.csproj": {
+                "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Implementation\\BL.Implementation.csproj"
+              },
+              "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj": {
+                "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\BL.Repository\\BL.Repository.csproj"
+              },
+              "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj": {
+                "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj",
+        "projectName": "CandidateDL",
+        "projectPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\CandidateDL.csproj",
+        "packagesPath": "C:\\Users\\Shivam Kasaudhan\\.nuget\\packages\\",
+        "outputPath": "S:\\Omnie Solutions\\CandidateRegistrationCRUD\\CandidateCRUD\\CandidateDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shivam Kasaudhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

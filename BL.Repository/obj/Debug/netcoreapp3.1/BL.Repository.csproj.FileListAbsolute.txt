@@ -1,0 +1,12 @@
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\bin\Debug\netcoreapp3.1\BL.Repository.deps.json
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\bin\Debug\netcoreapp3.1\BL.Repository.dll
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\bin\Debug\netcoreapp3.1\BL.Repository.pdb
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.csproj.AssemblyReference.cache
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.AssemblyInfoInputs.cache
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.AssemblyInfo.cs
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.csproj.CoreCompileInputs.cache
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.dll
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.pdb
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\bin\Debug\netcoreapp3.1\CandidateDL.dll
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\bin\Debug\netcoreapp3.1\CandidateDL.pdb
+S:\Omnie Solutions\CandidateRegistrationCRUD\CandidateCRUD\BL.Repository\obj\Debug\netcoreapp3.1\BL.Repository.csproj.CopyComplete

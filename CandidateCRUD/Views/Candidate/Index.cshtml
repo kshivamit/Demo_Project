@@ -1,0 +1,21 @@
+﻿@model CandidateDL.Candidate  //Class which is used for data transfer
+
+<form asp-action="CreateCandidate" asp-controller="Candidate">
+    <div class="form-group">
+        <input type="hidden" asp-for="Id" />
+        <label asp-for="CandidateName">CandidateName</label>
+        <input type="text" asp-for="CandidateName" class="form-control" placeholder="Candidate Name"/>
+        <span asp-validation-for="CandidateName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FatherName">FatherName</label>
+        <input type="text" asp-for="FatherName" class="form-control" placeholder="Father Name" />
+        <span asp-validation-for="FatherName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EmailId">EmailId</label>
+        <input type="email" asp-for="EmailId" class="form-control" placeholder="Email Id" />
+        <span asp-validation-for="EmailId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
